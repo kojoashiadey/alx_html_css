@@ -1,35 +1,83 @@
-/* Make the body a column-flex container */
+/* Layout: Flex structure */
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
 }
 
-/* Make main a row-flex container */
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
 }
 
-/* Make article take up 2/3 of main, and allow scrolling */
+/* Article styling */
 article {
   flex: 2;
   overflow-y: auto;
   padding: 1rem;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ccc;
 }
 
-/* Make aside take up 1/3 of main, and allow scrolling */
+article h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+article table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+article table th,
+article table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Aside styling */
 aside {
   flex: 1;
   overflow-y: auto;
   padding: 1rem;
+  background-color: #fcfcfc;
+  border-left: 1px solid #ccc;
 }
 
-/* Optional: Style header and footer */
-header, footer {
+/* Header and Footer */
+header,
+footer {
   background-color: #f2f2f2;
   padding: 1rem;
 }
 
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Header menu styling */
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
