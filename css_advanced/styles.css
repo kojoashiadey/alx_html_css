@@ -1,7 +1,32 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <title>Document</title>
-</head>
+<div class="smile-school">
+  <h1>Smile schooled</h1>
+  
+  <div class="smile-types">
+    <div>SIMLES</div>
+    <div>GRIN</div>
+    <div>LAUGH</div>
+  </div>
+  
+  <hr class="divider">
+  
+  <h2>Learn from the pros</h2>
+  
+  <ul class="achievements-list">
+    <li>
+      <strong>Phillip Massey</strong>
+      <span>Smile of the year - 2018 - 2019</span>
+    </li>
+    <li>
+      <strong>Ramie Lawrence</strong>
+      <span>Best - little smile - 2017</span>
+    </li>
+    <li>
+      <strong>Bruce Walters</strong>
+      <span>Best - friend Smile - <em>live performance 2019</em></span>
+    </li>
+    <li>
+      <strong>Henry Hughes</strong>
+      <span>24h smiles - winner 2016 - 2019</span>
+    </li>
+  </ul>
+</div>
