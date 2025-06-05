@@ -30,3 +30,129 @@
     </li>
   </ul>
 </div>
+
+/* Main container styling */
+.smile-school {
+  font-family: 'Arial', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.smile-school h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.smile-school h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 30px 0 20px;
+  color: #555;
+}
+
+/* Smile types styling */
+.smile-types {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* Divider line */
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 30px 0;
+}
+
+/* Achievements list */
+.achievements-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.achievements-list li {
+  margin-bottom: 25px;
+  padding-left: 20px;
+  border-left: 3px solid #ff6b6b;
+}
+
+.achievements-list li strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.achievements-list li em {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Testimonial styling */
+.testimonial {
+  margin: 40px 0;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  position: relative;
+}
+
+.testimonial::before {
+  content: '“';
+  font-size: 4rem;
+  color: #ff6b6b;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  line-height: 1;
+  opacity: 0.3;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  text-align: right;
+}
+
+.testimonial-role {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .smile-types {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .testimonial {
+    padding: 20px 15px;
+  }
+  
+  .testimonial::before {
+    font-size: 3rem;
+  }
+}
